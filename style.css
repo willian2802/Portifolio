@@ -1,0 +1,135 @@
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+.hero-area {
+    background-image: url('/adds/eu.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+
+
+li a {
+    color: white;
+    outline: none;
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 2rem;
+}
+
+li a:hover {
+    color: red;
+    transition: 1s;
+}
+
+.apresentaçao-inicial {
+    top: 30%;
+    color: white;
+    font-size: 10px;
+}
+
+.logo {
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+    margin-right: 35px; 
+}
+
+span {
+    color: red;
+}
+
+
+/* sobre min  */
+
+
+.sobre-min img {
+    height: 70vh;
+    width: 60vw;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.text-sb h2{
+    font-size: 3.5rem;
+}
+
+.text-sb p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+/* skills */
+
+.skills {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+.icon {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* projetos */
+
+.projeto {
+    display: flex;
+    max-width: 550px;
+    max-height: 550px;
+    min-width: 200px;
+    min-height: 200px;
+    box-shadow: 20px;
+    margin: 5px;
+}
+
+
+
+.card-img {
+    height: 250px;
+    width: 100%;
+}
+
+.card-img img {
+    height: 250px;
+    width: 100%;
+}
+
+
+
+
+.descricao {
+    background-color: black;
+}
+
+
+/* contato */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.808);
+    box-shadow: 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+footer h2 {
+    margin: 50px;
+}
+
+.informacoes {
+    max-width: 300px;
+    max-height: 200px;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+.informacoes  {
+    margin: 0 auto 0 auto;
+
+}
+
+
+
