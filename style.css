@@ -1,14 +1,6 @@
-a {
-    outline: none;
-    text-decoration: none;
-}
 
-.hero-area {
-    background-image: url('/adds/eu.jpg');
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    background-position: center;
+.navbar {
+    background-color: black;
 }
 
 
@@ -30,6 +22,7 @@ li a:hover {
     top: 30%;
     color: white;
     font-size: 10px;
+    background-color: black;
 }
 
 .logo {
@@ -79,13 +72,15 @@ span {
 
 .projeto {
     display: flex;
-    max-width: 550px;
-    max-height: 550px;
-    min-width: 200px;
-    min-height: 200px;
+    max-width: 450px;
+    max-height: 350px;
+    min-width: 450px;
+    min-height: 350px;
     box-shadow: 20px;
     margin: 5px;
 }
+
+
 
 
 

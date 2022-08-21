@@ -19,53 +19,45 @@
 </head>
 <body>
 
-    <section class="hero-area">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+            <h2 href="#" class="logo">Portfo<span>lio</span></h2>
+            
+            <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu" 
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button> 
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <div class="container-fluid">
-                <h2 href="#" class="logo">Portfo<span>lio</span></h2>
-                
-                <button class="navbar-toggler" 
-                type="button" 
-                data-bs-toggle="collapse" 
-                data-bs-target="#navmenu" 
-                aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-            </button> 
-
-                <div class="collapse navbar-collapse" id="navmenu">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="#sobre-min" class="nav-item">Sobre min</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#Skills" class="nav-item">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#Projetos" class="nav-item">Projetos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contato" class="nav-item">Contato</a>
-                        </li>
-                    </ul>
-                </div>
-                
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#sobre-min" class="nav-item">Sobre min</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Skills" class="nav-item">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Projetos" class="nav-item">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-item">Contato</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-
-        <div class="apresentaçao-inicial">
-            <h4 class="m-5">Ola meu nome e </h4>
-            <h1 class="m-5">Willian Souza Nascimento</h1>
-            <h3 class="m-5">Sou um front-end dev</h3>
+            
         </div>
+    </nav>
 
-    </section>
+
 
     <section class="bg-dark text-light p-5 text-center">
         <div class="container">
             <div class="sobre-min">
-                <img src="/lobo1.jpg" alt="">
+                <img src="/adds/eu.jpg" alt="">
                 <div id="sobre-min" class="text-sb p-3"><h2>Sobre Min</h2>
                     <p>Meu nome e Willian Souza Nascimento sou um front-end web dev e tenho 20 anos, meu interesse por programação começou como um hobby com o jogo gladiabots que você programa os robôs para lutar por você, com esse jogo eu entrei no mundo da programação, comecei a ver vídeos e criar coisas simples com o tempo eu decidi fazer isso minha carreira, gosto de programação por causa do seu desafio, e como ela nunca e a mesma, tem sempre uma coisa nova pra fazer e aprender esse desafio constante e sempre mudando e o que me fez escolher a programação como carreira.</p>
                     <p>Aprendi Html,css e javascript e bootstrap tenho conhecimento para fazer sites responsivos, estou atualmente fazendo projetos maiores como um site de compras,um site para marcar um horario pra um restaurante e entre outras ideias.</p>
@@ -114,14 +106,14 @@
 
     <section class="projects text-light text-center">
         <div class="container">
-            <h1 id="m-3 Projetos" style="color: black;">Projects</h2>
+            <h1 id="Projetos" style="color: black;">Projects</h2>
 
             <div class="row m-5">
                 <div class="col-md">
                     <div class="projeto card bg-dark">
                         <div class="card-body">
                             <div class="card-title"><h2> <span class="text-warning">Site cabeleireiro</span></h2></div>
-                            <div class="card-img"><img src="/adds/projeto.1.png" alt=""></div>
+                            <div class="card-img"><img class="img-fluid" src="/adds/projeto.1.png" alt=""></div>
                         </div>
                     </div>
                 </div>
@@ -130,25 +122,8 @@
                     <div class="projeto card" style="background-color: rgb(77, 167, 160);">
                         <div class="m-2 card-title"><h2> Site cabeleireiro</h2></div>
                         <div class="card-body"><p>Um site de cabeleireiro responsivo feito usando html,css e bootstrap um dos meus primeiros projetos bootstrap, com esse projeto aprendi a mexer com cards do bootstrap e consequi entender melhor na pratica como criar um site responsivo</p>
-                            <button type="button" class="btn btn-dark"> <a href="https://willian2802.github.io/site-cabeleireiro/">Veja o projeto</a></button>
+                            <button type="button" class="btn btn-dark"> <a style="text-decoration: none;" href="https://willian2802.github.io/site-cabeleireiro/">Veja o projeto</a></button>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row m-5">
-                <div class="col-md">
-                    <div class="projeto card bg-dark">
-                        <div class="card-body">
-                            <div class="card-title">Site cabeleireiro</div>
-                            <div><img src="/adds/icons8-html-5-144.png" alt=""></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md">
-                    <div class="projeto card" style="background-color: rgb(77, 167, 160);">
-                        <div class="card-body">123</div>
                     </div>
                 </div>
             </div>
@@ -199,7 +174,7 @@
                             </div>
                             <div class="card-title"><h3>GitHub</h3></div>
                             <div class="card-body">
-                                <p>https://github.com/willian2802</p>
+                                <a style="text-decoration: none;" href="https://github.com/willian2802">github.com/willian2802</a>
                             </div>
                         </div>
                     </div>
