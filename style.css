@@ -1,3 +1,7 @@
+.navbar {
+    background-color: black;
+}
+
 a {
     outline: none;
     text-decoration: none;
