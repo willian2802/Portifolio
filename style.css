@@ -94,6 +94,10 @@ span {
     width: 100%;
 }
 
+.card {
+    overflow: auto;
+}
+
 
 
 
