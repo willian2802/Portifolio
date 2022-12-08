@@ -94,8 +94,9 @@ span {
     width: 100%;
 }
 
-
-
+.card {
+    overflow: auto;
+}
 
 .descricao {
     background-color: black;
